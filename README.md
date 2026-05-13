@@ -117,36 +117,25 @@ credit-risk-assessment-and-loan-pricing/
 
 ---
 
-Technical and Financial Skills
+**# Technical and Financial Skills**
 
 - Corporate credit risk assessment
-
 - Internal rating system construction
-
 - Linear Discriminant Analysis (LDA)
-
 - Structural default modeling (Merton Model)
-
 - Probability of default (PD) estimation
-
 - Credit spread and bond yield analysis
-
 - Market-based loan pricing
-
 - Financial risk modeling in Excel
-
 - Quantitative credit analysis
-
 - Risk-adjusted lending decisions
 
 ---
 
-# Author
+**# Author**
 
 **Edoardo Mori**  
-
 Financial Analyst
-
 MSc in Financial Technology and Computing  
 
 For further information: edoardo.mori@usi.ch
