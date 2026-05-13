@@ -118,7 +118,7 @@ credit-risk-assessment-and-loan-pricing/
 
 ---
 
-# Technical and Financial Skills Demonstrated
+# Technical and Financial Skills
 
 - Corporate credit risk assessment
 - Internal rating system construction
