@@ -114,10 +114,11 @@ credit-risk-assessment-and-loan-pricing/
 │
 └── executive_summary/
     └── executive_summary.pdf
+```
 
 ---
 
-**# Technical and Financial Skills**
+# Technical and Financial Skills Demonstrated
 
 - Corporate credit risk assessment
 - Internal rating system construction
@@ -132,10 +133,10 @@ credit-risk-assessment-and-loan-pricing/
 
 ---
 
-**# Author**
+# Author
 
 **Edoardo Mori**  
 Financial Analyst
 MSc in Financial Technology and Computing  
 
-For further information: edoardo.mori@usi.ch
+For further information: **edoardo.mori@usi.ch**
