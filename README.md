@@ -4,21 +4,21 @@ Corporate credit risk project combining credit scoring, structural default model
 
 ---
 
-## Project Overview
+# Project Overview
 
-This project develops a corporate credit risk framework to assess two publicly traded borrowers operating in the consumer/service sector and determine which loan application should be approved under capital constraints.
+This project develops a corporate credit risk framework to assess two corporate borrowers operating in the consumer/service sector and determine which loan application should be approved under credit risk constraints.
 
 The analysis combines three complementary methodologies:
 
-- Linear Discriminant Analysis for credit scoring and internal rating assignment
+- Linear Discriminant Analysis (LDA) for credit scoring and internal rating assignment
 - Merton structural credit risk model for market-implied default probability estimation
 - Comparable bond spread analysis for market-based loan pricing
 
-The final recommendation supports the approval of the loan to ABC, which achieved a stronger Z-score, an internal A-rating, and a more favorable credit risk profile than XYZ.
+The final recommendation supports the approval of the loan to ABC, which achieved a stronger Z-score, a higher internal rating, and a more favorable overall credit profile than XYZ.
 
 ---
 
-## Key Results
+# Key Results
 
 | Metric | ABC | XYZ |
 |---|---:|---:|
@@ -35,7 +35,7 @@ The final recommendation supports the approval of the loan to ABC, which achieve
 
 ---
 
-## Credit Scoring and Internal Rating Framework
+# Credit Scoring and Internal Rating Framework
 
 The credit scoring model was built using Linear Discriminant Analysis (LDA) on three selected financial indicators:
 
@@ -49,21 +49,21 @@ Customer Retention Rate (CRR) was excluded due to its limited discriminatory pow
 
 ---
 
-## Classification and Rating Assignment
+# Classification and Rating Assignment
 
 The model classified firms using a discriminant Z-score and a cutoff threshold estimated as the midpoint between healthy and distressed firms.
 
 ![Credit Classification and Threshold Analysis](excel-model/credit_classification_and_threshold_analysis.png)
 
-An internal rating framework was then constructed based on the empirical distribution of Z-scores.
+An internal rating framework was then constructed using the empirical distribution of Z-scores.
 
 ![Internal Rating Framework](excel-model/internal_rating_framework.png)
 
 ---
 
-## Structural Default Estimation
+# Structural Default Estimation
 
-The Merton model was applied to estimate ABC’s 2-year risk-neutral probability of default.
+The Merton (1973) structural credit risk model was applied to estimate ABC’s 2-year risk-neutral probability of default.
 
 | Metric | Value |
 |---|---:|
@@ -71,13 +71,11 @@ The Merton model was applied to estimate ABC’s 2-year risk-neutral probability
 | d2 | 1.924 |
 | Risk-Neutral PD | 2.72% |
 
-![Merton Structural Model](excel-model/merton_structural_model.png)
-
 ---
 
-## Market-Based Loan Pricing
+# Market-Based Loan Pricing
 
-Since ABC does not have publicly traded bonds, Starbucks Corporation was selected as a comparable issuer based on industry exposure, maturity profile and investment-grade credit quality.
+Since ABC does not have publicly traded bonds, Starbucks Corporation was selected as a comparable issuer based on industry exposure, maturity profile, and investment-grade credit quality.
 
 | Metric | Value |
 |---|---:|
@@ -86,11 +84,9 @@ Since ABC does not have publicly traded bonds, Starbucks Corporation was selecte
 | Implied Loan Yield | 4.662% |
 | Repayment at Maturity | USD 109.52M |
 
-![Market-Based Loan Pricing](excel-model/market_based_loan_pricing.png)
-
 ---
 
-## Methodology Comparison
+# Methodology Comparison
 
 | Approach | Strengths | Limitations |
 |---|---|---|
@@ -100,7 +96,7 @@ Since ABC does not have publicly traded bonds, Starbucks Corporation was selecte
 
 ---
 
-## Repository Structure
+# Repository Structure
 
 ```text
 credit-risk-assessment-and-loan-pricing/
@@ -108,15 +104,13 @@ credit-risk-assessment-and-loan-pricing/
 ├── README.md
 │
 ├── excel-model/
-│   ├── corporate_credit_risk_model.xlsx
+│   ├── credit-risk-analysis-and-loan-pricing.xlsx
 │   ├── discriminant_analysis_framework.png
 │   ├── credit_classification_and_threshold_analysis.png
-│   ├── internal_rating_framework.png
-│   ├── merton_structural_model.png
-│   └── market_based_loan_pricing.png
+│   └── internal_rating_framework.png
 │
 ├── presentation/
 │   └── corporate_credit_risk_presentation.pdf
 │
-└── executive-summary/
-    └── credit_risk_executive_summary.pdf
+└── executive_summary/
+    └── executive_summary.pdf
